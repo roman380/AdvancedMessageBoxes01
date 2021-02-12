@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedMessageBoxes01", "AdvancedMessageBoxes01.vcproj", "{DB1B7A03-95D6-4C78-8553-62103C51C34C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug.ActiveCfg = Debug|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug.Build.0 = Debug|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release.ActiveCfg = Release|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
