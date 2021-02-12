@@ -11,8 +11,6 @@
 #include <atlctrls.h>
 #include "resource.h"
 
-#define _countof(x)		(sizeof (x) / sizeof *(x))
-
 ////////////////////////////////////////////////////////////
 // _MessageBoxHelper
 //
@@ -124,7 +122,7 @@ public:
 			m_bTimedOut = FALSE;
 			return nResult;
 		}
-		LRESULT OnTimer(UINT_PTR nEvent, TIMERPROC) throw()
+		LRESULT OnTimer(UINT_PTR nEvent) throw()
 		{
 			switch(nEvent)
 			{

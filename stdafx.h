@@ -31,13 +31,12 @@
 #define _ATL_ALL_WARNINGS
 #define _ATL_ATTRIBUTES
 
-#include <atlstr.h>
-#include <atltypes.h>
 #include <atlbase.h>
 #include <atlcom.h>
 #include <atlwin.h>
 #include <atlctl.h>
 #include <atlhost.h>
+#include <atltypes.h>
 #include <atlcoll.h>
 
 using namespace ATL;
@@ -55,7 +54,7 @@ using namespace ATL;
 #include <atluser.h>
 #include <atlcrack.h>
 #include <atlmisc.h>
-#include <atltheme.h>
+//#include <atltheme.h>
 #include <atldlgs.h>
 
 using namespace WTL;

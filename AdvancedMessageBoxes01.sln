@@ -1,24 +1,33 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedMessageBoxes01", "AdvancedMessageBoxes01.vcproj", "{DB1B7A03-95D6-4C78-8553-62103C51C34C}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31004.235
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedMessageBoxes01", "AdvancedMessageBoxes01.vcxproj", "{DB1B7A03-95D6-4C78-8553-62103C51C34C}"
 EndProject
 Global
-	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
-		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug|Win32.Build.0 = Debug|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug|x64.ActiveCfg = Debug|x64
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug|x64.Build.0 = Debug|x64
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release|Win32.ActiveCfg = Release|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release|Win32.Build.0 = Release|Win32
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release|x64.ActiveCfg = Release|x64
+		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug.ActiveCfg = Debug|Win32
-		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Debug.Build.0 = Debug|Win32
-		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release.ActiveCfg = Release|Win32
-		{DB1B7A03-95D6-4C78-8553-62103C51C34C}.Release.Build.0 = Release|Win32
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F964AE01-EA30-4DB0-BF0F-0C4A23C5DF7D}
 	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
 	EndGlobalSection
 EndGlobal
